@@ -1,0 +1,187 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+padding: 30px 12%;
+background: black;
+backdrop-filter: blur(10px);
+display: flex;
+gap: 10em;
+align-items: center;
+z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight:600 ;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,
+                 0 0 50px orangered;
+    transform: scale(1.1);
+}
+span{
+    color: orangered;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 10px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+language{
+   
+  gap: 1000px;
+   
+}
+.home{
+   
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    padding: 20px 10% 0;
+}
+.home.content{
+    max-width: 500px;
+    margin-top: 100px;
+}
+.home.content h3{
+    font-size: 42px;
+}
+.home.content h1{
+    font-size: 62px;
+}
+.home.content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.img-box img {
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 350px;
+    
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+    width: 50px;
+}
+.competence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: black;
+}
+.about-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+    border-radius: 10%;
+}
+h2{
+    text-align: left;
+    color:white;
+    font-size: 42px;
+}
+.about-content h3{
+    font-size: 62px;
+    color: white;
+}
+.about-content p{
+    color: white;
+    font-size: 20px ;
+    margin: 2em 0 3em;
+}
+.competence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: black;
+    height: 100vh;
+}
+h3{
+    text-align: left;
+    color:black;
+    font-size: 42px;
+}
+
+.site-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+    border-radius: 10%;  
+}
+.projet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+}
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: black;
+}
+.cv-img img{
+    position: relative;
+    width: 400px;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+    border-radius: 10%;
+}
+.contact{
+   
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    padding: 20px 10% 0;
+}
+footer{
+    background-color: black;
+    font-family: 'Noto Sans';
+    line-height: 4rem;
+    margin-top: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
